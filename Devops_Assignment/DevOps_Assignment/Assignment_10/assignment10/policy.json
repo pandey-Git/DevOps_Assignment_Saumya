@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::500692702174:user/saumya"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::mybucket-policy-1787603014/*"
+    }
+  ]
+}

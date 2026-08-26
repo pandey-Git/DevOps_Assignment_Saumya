@@ -1,0 +1,63 @@
+===== VPC AUDIT Sun Aug 23 13:10:09 IST 2026 =====
+NAT Gateway:
+Instances:
+============================
+===== VPC AUDIT Sun Aug 23 13:10:51 IST 2026 =====
+NAT Gateway:
+===== VPC AUDIT Sun Aug 23 13:11:27 IST 2026 =====
+NAT Gateway:
+===== VPC AUDIT Sun Aug 23 13:12:14 IST 2026 =====
+NAT Gateway:
+NATGATEWAYS	zonal	public	2026-08-23T06:51:26+00:00	nat-06d9c60b3cc0b5107	available	subnet-09d600020e891fcea	vpc-026c7aa8ab36d3940
+NATGATEWAYADDRESSES	eipalloc-0e6d15bbe001abf3a	eipassoc-0ea8c36c20852fa9e	True	eni-090febb837b79f10c	10.0.1.168	35.75.227.214	succeeded
+TAGS	Name	Assignment6-NAT
+Instances:
+RESERVATIONS	500692702174	r-00f4a04d5d434189b
+INSTANCES	0	x86_64	uefi-preferred	076e9306-cbc2-4051-8588-f814e8576e23	uefi	False	True	xen	ami-0e239f7f4b3226722	i-00a8a8b14bc7e953e	t3.micro	terraform-key	2026-08-23T07:22:01+00:00	Linux/UNIX	ip-10-0-1-196.ap-northeast-1.compute.internal	10.0.1.196		52.194.214.94	/dev/sda1	ebs	True		subnet-09d600020e891fcea	RunInstances	2026-08-23T07:22:01+00:00	hvm	vpc-026c7aa8ab36d3940
+BLOCKDEVICEMAPPINGS	/dev/sda1
+EBS	2026-08-23T07:22:02+00:00	True	0	attached	vol-05c19b4b5b161da23
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	2
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+MAINTENANCEOPTIONS	default	default
+METADATAOPTIONS	enabled	disabled	2	required	disabled	applied
+MONITORING	disabled
+NETWORKINTERFACES		interface	06:f3:f1:3e:d2:0d	eni-01d66e3d3880509c5	500692702174	10.0.1.196	True	in-use	subnet-09d600020e891fcea	vpc-026c7aa8ab36d3940
+ASSOCIATION	amazon		52.194.214.94
+ATTACHMENT	2026-08-23T07:22:01+00:00	eni-attach-03300762161cadd31	True	0	0	attached
+GROUPS	sg-0b69d519855fcbe8d	Assignment6-Public-SG
+OPERATOR	False
+PRIVATEIPADDRESSES	True	10.0.1.196
+ASSOCIATION	amazon		52.194.214.94
+NETWORKPERFORMANCEOPTIONS	default
+OPERATOR	False	False
+PLACEMENT	ap-northeast-1a	apne1-az4		default
+PRIVATEDNSNAMEOPTIONS	False	False	ip-name
+SECURITYGROUPS	sg-0b69d519855fcbe8d	Assignment6-Public-SG
+STATE	16	running
+TAGS	Name	Assignment6-Bastion
+RESERVATIONS	500692702174	r-0557460c6920f66a9
+INSTANCES	0	x86_64	uefi-preferred	221da060-7ad9-46d0-8bbb-2284a816dad2	uefi	False	True	xen	ami-0e239f7f4b3226722	i-0bc8c8c1441953cad	t3.micro	terraform-key	2026-08-23T07:25:50+00:00	Linux/UNIX	ip-10-0-2-140.ap-northeast-1.compute.internal	10.0.2.140		/dev/sda1	ebs	True		subnet-07db4dfb26486227d	RunInstances	2026-08-23T07:25:50+00:00	hvm	vpc-026c7aa8ab36d3940
+BLOCKDEVICEMAPPINGS	/dev/sda1
+EBS	2026-08-23T07:25:51+00:00	True	0	attached	vol-083739448fcce1e8e
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	2
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+MAINTENANCEOPTIONS	default	default
+METADATAOPTIONS	enabled	disabled	2	required	disabled	applied
+MONITORING	disabled
+NETWORKINTERFACES		interface	06:9c:23:35:51:29	eni-0a7a5fe615491f216	500692702174	10.0.2.140	True	in-use	subnet-07db4dfb26486227d	vpc-026c7aa8ab36d3940
+ATTACHMENT	2026-08-23T07:25:50+00:00	eni-attach-0167aad8ed0cc0b4c	True	0	0	attached
+GROUPS	sg-06c91224e57652e65	Assignment6-Private-SG
+OPERATOR	False
+PRIVATEIPADDRESSES	True	10.0.2.140
+NETWORKPERFORMANCEOPTIONS	default
+OPERATOR	False	False
+PLACEMENT	ap-northeast-1a	apne1-az4		default
+PRIVATEDNSNAMEOPTIONS	False	False	ip-name
+SECURITYGROUPS	sg-06c91224e57652e65	Assignment6-Private-SG
+STATE	16	running
+TAGS	Name	Assignment6-Private-Instance
+============================
