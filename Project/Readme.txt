@@ -1,1 +1,1 @@
-contains the project
+This folder contains the project.
