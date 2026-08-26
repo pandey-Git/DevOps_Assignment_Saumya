@@ -1,0 +1,7 @@
+region           = "ap-northeast-1"
+project_name     = "nimbuscart"
+key_name         = "terraform-key"
+private_key_path = "~/.ssh/terraform-key.pem"
+db_username      = "nimbus"
+db_password      = "NimbusCartDbPass123!"
+db_name          = "nimbuscart"

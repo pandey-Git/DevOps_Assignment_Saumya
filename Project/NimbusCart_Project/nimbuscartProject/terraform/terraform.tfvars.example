@@ -1,0 +1,4 @@
+region            = "ap-northeast-1"
+key_name          = "REPLACE_WITH_YOUR_EC2_KEYPAIR_NAME"
+private_key_path  = "~/.ssh/YOUR_KEY.pem"
+db_password       = "NimbusCartDbPass123!"
